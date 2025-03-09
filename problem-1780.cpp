@@ -16,7 +16,7 @@ string convertDectoTer(int n) {
 }
 
 bool checkPowerOfThree(int n) {
-    string converted = convertDectoTer(n);
+    string converted = convertDectoTer(n);  
 
     if (converted.find('2') == string::npos) {
         return true;
